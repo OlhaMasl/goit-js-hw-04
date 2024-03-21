@@ -4,11 +4,7 @@ function isEnoughCapacity(products, containerSize) {
   for (const product of getArrayOfValue) {
     totalValue += product;
   }
-  if (totalValue <= containerSize) {
-      return true
-    } else {
-      return false
-    }
+  return totalValue <= containerSize;
 }
 
 //Results
